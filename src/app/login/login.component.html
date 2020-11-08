@@ -1,0 +1,43 @@
+
+	<div class="limiter">
+		<div class="container-login100 mx-auto">
+			<div class="wrap-login100">
+				
+                    <form class="login100-form ">
+					<span class="login100-form-logo">
+						<i class="zmdi zmdi-landscape"></i>
+					</span>
+
+					<span class="login100-form-title p-b-34 p-t-27">
+						Login
+					</span>
+
+                
+					<div class="wrap-input100 validate-input" >
+						<input [(ngModel)] ="loginUserData.email" name="email" class="input100" type="text"  placeholder="Email" required>
+						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					</div>
+
+					<div class="wrap-input100 ">
+						<input [(ngModel)] ="loginUserData.password" class="input100" type="password" name="password" placeholder="Password" required>
+						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					</div>
+
+				
+
+					<div class="container-login100-form-btn">
+						<button (click)="loginUser()" class="login100-form-btn">
+							Login
+						</button>
+					</div>
+
+				
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+    <div id="dropDownSelect1"></div>
+  
+    
